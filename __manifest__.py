@@ -7,14 +7,14 @@
     'website': 'https://www.odoo.school',
     'author': 'Odoo SA',
     'license': 'OPL-1',
-    # 'depends': [
-    #     'base',
-    # ],
-    # 'external_dependencies': {
-    #     'python': []
-    # },
-    # 'data': [],
-    # 'demo': [],
+    'depends': [
+        'base',
+    ],
+    'external_dependencies': {
+        'python': []
+    },
+    'data': [],
+    'demo': [],
     'installable': True,
     'application': False,
     'auto_install': False,
