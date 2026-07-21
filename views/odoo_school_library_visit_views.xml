@@ -1,0 +1,50 @@
+<odoo>
+
+    <record id="odoo_school_library_visit_tree" model="ir.ui.view">
+        <field name="name">odoo.school.visit.book.tree ()</field>
+        <field name="model">odoo_school_library.visit</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="description"/>
+                <field name="res_patient_id"/>
+                <field name="res_doctor_id"/>
+                <field name="res_disease_id"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="odoo_school_library_visit_form" model="ir.ui.view">
+        <field name="name">odoo.school.library.visit.form ()</field>
+        <field name="model">odoo_school_library.visit</field>
+        <field name="arch" type="xml">
+            <form>
+                <header></header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="description"/>
+                        </group>
+                        <group>
+                            <field name="res_patient_id"/>
+                            <field name="res_disease_id"/>
+                            <field name="res_doctor_id"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_odoo_school_library_visit_window" model="ir.actions.act_window">
+            <field name="name">Visit</field>
+            <field name="res_model">odoo_school_library.visit</field>
+            <field name="type">ir.actions.act_window</field>
+    </record>
+
+    <menuitem id="odoo_school_library_menu_visit"
+          action="action_odoo_school_library_visit_window"
+          parent="odoo_school_library_main_menu"
+      name="Visit" sequence="200"/>
+</odoo>

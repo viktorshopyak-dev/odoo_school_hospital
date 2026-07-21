@@ -1,0 +1,7 @@
+id,name,description,res_patient_id/id,res_doctor_id/id,res_disease_id/id
+visit_01_07_2025_1,Візит 01.07.2025 №1,Візит до лікаря,patient_green,doctor_shine,disease_flu
+visit_04_07_2026_2,Візит 04.07.2026 №2,Візит 2 до лікаря Dr Shine,patient_green,doctor_shine,disease_flu
+visit_10_07_2026_3,Візит 10.07.2026 №3,Плановий огляд,patient_smith,doctor_petrenko,disease_bronchitis
+visit_12_07_2026_4,Візит 12.07.2026 №4,Консультація кардіолога,patient_taylor,doctor_kovalenko,disease_hypertension
+visit_15_07_2026_5,Візит 15.07.2026 №5,Повторний прийом,patient_brown,doctor_kovalenko,disease_arrhythmia
+visit_18_07_2026_6,Візит 18.07.2026 №6,Огляд у хірурга,patient_wilson,doctor_bondar,disease_digestive

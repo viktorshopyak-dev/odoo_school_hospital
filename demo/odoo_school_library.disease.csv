@@ -1,0 +1,8 @@
+id,name,description,parent_id/id
+disease_respiratory,Распіраторні,Распіраторні захворювання,
+disease_flu,Грип,,disease_respiratory
+disease_bronchitis,Бронхіт,,disease_respiratory
+disease_cardio,Серцево-судинні,Серцево-судинні захворювання,
+disease_hypertension,Гіпертонія,,disease_cardio
+disease_arrhythmia,Аритмія,,disease_cardio
+disease_digestive,Шлунково-кишкові,Шлунково-кишкові захворювання,

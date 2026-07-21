@@ -1,0 +1,28 @@
+<odoo>
+    <data noupdate="1">
+        <record id="patient_green" model="odoo_school_library.patient">
+            <field name="name">Robert Green</field>
+            <field name="description">Robert Green</field>
+        </record>
+        <record id="patient_smith" model="odoo_school_library.patient">
+            <field name="name">John Smith</field>
+            <field name="description">John Smith, 34 years old</field>
+        </record>
+        <record id="patient_taylor" model="odoo_school_library.patient">
+            <field name="name">Emma Taylor</field>
+            <field name="description">Emma Taylor, 28 years old</field>
+        </record>
+        <record id="patient_brown" model="odoo_school_library.patient">
+            <field name="name">Michael Brown</field>
+            <field name="description">Michael Brown, 45 years old</field>
+        </record>
+        <record id="patient_wilson" model="odoo_school_library.patient">
+            <field name="name">Sarah Wilson</field>
+            <field name="description">Sarah Wilson, 52 years old</field>
+        </record>
+        <record id="patient_davis" model="odoo_school_library.patient">
+            <field name="name">Chris Davis</field>
+            <field name="description">Chris Davis, 19 years old</field>
+        </record>
+    </data>
+</odoo>
